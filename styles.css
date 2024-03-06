@@ -1,10 +1,10 @@
 /* Estilos generales */
 body {
-    font-family: Arial, sans-serif;
+    font-family: "Caveat", cursive;
     margin: 0;
     padding: 0;
-    background-color: #1f1f1f; /* Color de fondo oscuro */
-    color: #ddd; /* Color de texto claro */
+    background-color: #1f1f1f; 
+    color: #ddd; 
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -21,15 +21,23 @@ header {
 main {
     padding: 20px;
     width: 100%;
-    max-width: 800px;
+    max-width: 500px;
 }
 
 section {
     margin-bottom: 40px;
 }
 
+h1 {
+    font-size: 2.5rem;
+}
 h2 {
-    color: #55a7e8; /* Color de texto azul */
+    color: #55a7e8; 
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.5rem;
 }
 
 ul {
@@ -39,6 +47,7 @@ ul {
 
 li {
     margin-bottom: 10px;
+    font-size: 20px;
 }
 
 .icons {
@@ -60,7 +69,7 @@ footer {
 }
 
 footer a {
-    color: #55a7e8; /* Color de enlace azul */
+    color: #55a7e8;
 }
 
 footer a:hover {
